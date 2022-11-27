@@ -1,6 +1,7 @@
 # DashWind
 Dashboard template built with create-react-app, tailwind css and daisy UI components.
 
+Dashwind is a free template for dashboard project using tailwind CSS and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS. It also comes with redux toolkit configured for some pages.
 
 
 # Getting Started with Create React App

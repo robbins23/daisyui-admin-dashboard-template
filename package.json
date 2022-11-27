@@ -2,6 +2,12 @@
   "name": "tailwind-dashboard-template-dashwind",
   "version": "1.0.0",
   "description": "Dashboard template built with create-react-app, tailwind css and daisy UI. Template uses rich tailwind css utility classes and have components of daisy UI, also have redux toolkit implemented for store management.",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "@reduxjs/toolkit": "^1.9.0",
@@ -41,13 +47,7 @@
   "bugs": {
     "url": "https://github.com/srobbin01/tailwind-dashboard-template-dashwind/issues"
   },
-  "homepage": "https://github.com/srobbin01/tailwind-dashboard-template-dashwind#readme",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "homepage": "",
   "eslintConfig": {
     "extends": [
       "react-app",
