@@ -13,7 +13,7 @@ Dashwind is a free template for dashboard project using tailwind CSS and react j
 
 ## Demo
 
-[DashWind Live preview ](https://github.com/facebook/create-react-app).
+[DashWind Live preview ](https://tailwind-dashboard-template-dashwind-k6dnpn85k-srobbin01.vercel.app/).
 
 
 
@@ -51,7 +51,7 @@ Go to project directory and run
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation](https://tailwind-dashboard-template-dashwind-k6dnpn85k-srobbin01.vercel.app/documentation)
 
 
 ## License
