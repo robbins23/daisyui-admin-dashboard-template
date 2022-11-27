@@ -16,7 +16,7 @@ function InternalPage(){
             <article className="prose">
               <h1 className="">DashWind</h1>
 
-              <p>Dashwind is a free template for dashboard project using tailwind CSS and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS. It also comes with redux toolkit configured for some pages. </p> 
+              <p>Dashwind is a free template for dashboard project using tailwind CSS and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS. It also comes with redux toolkit configured. </p> 
               
               <p>Also login logout flow has been already implemented, you can use this template to start your next SaaS project or build new internal tools in your company.</p>
               <Subtitle> Main libraries used - </Subtitle>
@@ -36,15 +36,15 @@ function InternalPage(){
               <Subtitle>Major functionality - </Subtitle>
               <p className=''>Almost all major UI components are available in Daisy UI library. Apart from this logic has been added for following - </p>
               <ul>
-                <li>token based user authentication handling </li> 
-                <li>store management using redux toolkit</li> 
-                <li>dark and light theme included</li> 
-                <li>api calling using axios and universal loader</li>
-                <li>showing notification content in seperate right sidebar (you can use this container to show other content also)</li>
-                <li>new notification message showing using redux</li>
-                <li>react chart js 2 examples</li>
-                <li>table with header for showing large data</li>
-                <li>pages like login, create account etc..</li>
+                <li>Token based user authentication </li> 
+                <li>Store management using redux toolkit</li> 
+                <li>Light/dark mode toggle</li> 
+                <li>Submenu support in sidebar</li>
+                <li>Daisy UI components</li>
+                <li>Universal loader for API calls</li>
+                <li>Right sidebar for other content</li>
+                <li>New notification messages and other pages</li>
+                <li>React chart js 2 examples</li>
               </ul>
               <Subtitle>How to use?</Subtitle>
                 <p>
