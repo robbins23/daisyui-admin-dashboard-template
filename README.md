@@ -1,10 +1,9 @@
 
 ![Logo](https://ik.imagekit.io/vu5t8xb15vzcx/tr:h-100/android-chrome-512x512_EiumvYoXeA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548997842)
 
-# DashWind
-Daisy UI based dashboard template with create-react-app.
+#React & [Daisy UI](https://daisyui.com/) based dashboard template - DashWind
 
-Dashwind is a free template for dashboard project using tailwind CSS and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS. It also comes with redux toolkit configured.
+Dashwind is a free template for dashboard project using Daisy UI and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS and power of Tailwind CSS utility classes. It also comes with redux toolkit configured.
 
 ![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2022-11-27_at_4.53.40_PM_VklHaM8UF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548831749)
 
@@ -13,7 +12,7 @@ Dashwind is a free template for dashboard project using tailwind CSS and react j
 
 ## Demo
 
-[DashWind Live preview ](https://tailwind-dashboard-template-dashwind.vercel.app/).
+[Live preview](https://tailwind-dashboard-template-dashwind.vercel.app/)
 
 
 
