@@ -1,18 +1,16 @@
 
 ![Logo](https://ik.imagekit.io/vu5t8xb15vzcx/tr:h-100/android-chrome-512x512_EiumvYoXeA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548997842)
 
-## [Daisy UI](https://daisyui.com/) Dashboard Template - DashWind
+## Daisy UI Dashboard Template - DashWind
 
 A free dashboard template using **Daisy UI** and react js. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
 
-![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2022-11-27_at_4.53.40_PM_VklHaM8UF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548831749)
-
-
-
-
-## Demo
 
 [Live preview](https://tailwind-dashboard-template-dashwind.vercel.app/)
+
+
+![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2022-11-27_at_4.53.40_PM_VklHaM8UF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548831749)
+
 
 
 
