@@ -16,9 +16,9 @@ function InternalPage(){
             <article className="prose">
               <h1 className="">DashWind</h1>
 
-              <p>Dashwind is a free template for dashboard project using tailwind CSS and react js. With the help of Dasisy UI, it comes with fully customizable and themable CSS. It also comes with redux toolkit configured. </p> 
+              <p>A free dashboard template using <span className='font-bold'>Daisy UI</span> and react js. With the help of Dasisy UI, it comes with <span className='font-bold'>fully customizable and themable CSS</span> and power of Tailwind CSS utility classes. It also comes with <span className='font-bold'>redux toolkit</span> configured.</p> 
               
-              <p>Also login logout flow has been already implemented, you can use this template to start your next SaaS project or build new internal tools in your company.</p>
+              <p>Also user authentication has been already implemented, you can use this template to start your next SaaS project or build new internal tools in your company.</p>
               <Subtitle> Main libraries used - </Subtitle>
               <ul>
                 <li><a href="https://reactjs.org/" target="_blank">React JS v18.2.0</a></li>
@@ -31,20 +31,16 @@ function InternalPage(){
                 
               </ul>
 
-              <p className='mt-4'>This project was bootstrapped with <a href="https://reactjs.org/docs/create-a-new-react-app.html" target="_blank">Create React App</a>.</p>
-
-              <Subtitle>Major functionality - </Subtitle>
+              <Subtitle>Major features - </Subtitle>
               <p className=''>Almost all major UI components are available in Daisy UI library. Apart from this logic has been added for following - </p>
               <ul>
-                <li>Token based user authentication </li> 
-                <li>Store management using redux toolkit</li> 
-                <li>Light/dark mode toggle</li> 
-                <li>Submenu support in sidebar</li>
-                <li>Daisy UI components</li>
-                <li>Universal loader for API calls</li>
-                <li>Right sidebar for other content</li>
-                <li>New notification messages and other pages</li>
-                <li>React chart js 2 examples</li>
+                  <li> <span className='font-bold'>Light/dark</span> mode toggle</li>
+                  <li> Token based user authentication</li>
+                  <li> <span className='font-bold'>Submenu support</span> in sidebar</li>
+                  <li> Store management using <span className='font-bold'>redux toolkit</span></li>
+                  <li> <span className='font-bold'>Daisy UI</span> components</li>
+                  <li> <span className='font-bold'>Right and left sidebar</span>, Universal loader, notifications and other components</li>
+                  <li> React <span className='font-bold'>chart js 2</span> examples</li>
               </ul>
               <Subtitle>How to use?</Subtitle>
                 <p>
