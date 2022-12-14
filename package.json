@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-dashboard-template-dashwind",
+  "name": "admin-dashboard-template-dashwind",
   "version": "1.0.0",
-  "description": "Dashboard template built with create-react-app, tailwind css and daisy UI. Template uses rich tailwind css utility classes and have components of daisy UI, also have redux toolkit implemented for store management.",
+  "description": "Admin Dashboard template built with create-react-app, tailwind css and daisy UI. Template uses rich tailwind css utility classes and have components of daisy UI, also have redux toolkit implemented for store management.",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

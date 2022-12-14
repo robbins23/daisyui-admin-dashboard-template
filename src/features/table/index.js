@@ -1,6 +1,8 @@
 import {useDispatch, useSelector} from 'react-redux'
 import {getTableContent} from './tableSlice'
 import {useState, useEffect} from 'react'
+import { openModal } from '../common/modalSlice'
+import { MODAL_BODY_TYPES } from '../../utils/globalConstantUtil'
 
 function Table(){
     const dispatch = useDispatch()
@@ -10,6 +12,10 @@ function Table(){
   useEffect(() => {
     dispatch(getTableContent())
   }, [])
+
+  const openDetailModal = () => {
+    dispatch(openModal({title : "User Detail", bodyType : MODAL_BODY_TYPES.USER_DETAIL}))
+}
 
   return(
         <>  
@@ -41,7 +47,7 @@ function Table(){
                         {
                             tableData.tableRows.map((t, k) => {
                                 return(
-                                    <tr key={k}>
+                                    <tr key={k} onClick={() => openDetailModal()}>
                                         <th>{k+1}</th> 
                                         <td>{t.name}</td> 
                                         <td>{t.trips}</td> 
