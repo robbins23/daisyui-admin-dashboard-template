@@ -16,15 +16,16 @@ const iconClasses = `h-6 w-6`
 const submenuIconClasses = `h-5 w-5`
 
 const routes = [
-  {
-    path: '/app/read-me', // url
-    icon: <DocumentTextIcon className={iconClasses}/>, // icon component
-    name: 'Read Me', // name that appear in Sidebar
-  },
+
   {
     path: '/app/dashboard',
     icon: <Squares2X2Icon className={iconClasses}/>, 
     name: 'Dashboard',
+  },
+  {
+    path: '/app/read-me', // url
+    icon: <DocumentTextIcon className={iconClasses}/>, // icon component
+    name: 'Read Me', // name that appear in Sidebar
   },
   {
     path: '/app/daisyui',

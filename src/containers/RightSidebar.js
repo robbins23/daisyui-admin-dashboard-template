@@ -1,9 +1,20 @@
 import XMarkIcon  from '@heroicons/react/24/solid/XMarkIcon'
+import { useDispatch, useSelector } from 'react-redux'
 import NotificationBodyRightDrawer from '../features/common/components/NotificationBodyRightDrawer'
+import { closeRightDrawer } from '../features/common/rightDrawerSlice'
 import { RIGHT_DRAWER_TYPES } from '../utils/globalConstantUtil'
 
 
-function RightSidebar({isOpen, header, closeRightDrawer, bodyType, extraObject}){
+function RightSidebar(){
+
+    const {isOpen, bodyType, extraObject, header} = useSelector(state => state.rightDrawer)
+    const dispatch = useDispatch()
+
+    const close = (e) => {
+      dispatch(closeRightDrawer(e))
+    }
+
+      
 
     return(
         <div className={" fixed overflow-hidden z-20 bg-gray-900 bg-opacity-25 inset-0 transform ease-in-out " + (isOpen ? " transition-opacity opacity-100 duration-500 translate-x-0  " : " transition-all delay-500 opacity-0 translate-x-full  ")}>
@@ -14,7 +25,7 @@ function RightSidebar({isOpen, header, closeRightDrawer, bodyType, extraObject})
                         
                         {/* Header */}
                         <div className="navbar   flex pl-4 pr-4   shadow-md ">
-                            <button className="float-left btn btn-circle btn-outline btn-sm" onClick={() => closeRightDrawer()}>
+                            <button className="float-left btn btn-circle btn-outline btn-sm" onClick={() => close()}>
                             <XMarkIcon className="h-5 w-5"/>
                             </button>
                             <span className="ml-2 font-bold text-xl">{header}</span>
@@ -26,7 +37,7 @@ function RightSidebar({isOpen, header, closeRightDrawer, bodyType, extraObject})
                             <div className="flex flex-col w-full">
                             {
                                 {
-                                        [RIGHT_DRAWER_TYPES.NOTIFICATION] : <NotificationBodyRightDrawer {...extraObject} closeRightDrawer={closeRightDrawer}/>,
+                                        [RIGHT_DRAWER_TYPES.NOTIFICATION] : <NotificationBodyRightDrawer {...extraObject} closeRightDrawer={close}/>,
                                         [RIGHT_DRAWER_TYPES.DEFAULT] : <div></div>
                                 }[bodyType]
                             }
@@ -38,7 +49,7 @@ function RightSidebar({isOpen, header, closeRightDrawer, bodyType, extraObject})
 
             </section>
 
-            <section className=" w-screen h-full cursor-pointer " onClick={() => closeRightDrawer()} ></section>
+            <section className=" w-screen h-full cursor-pointer " onClick={() => close()} ></section>
         </div>
     )
 }
