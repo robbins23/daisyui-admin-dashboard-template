@@ -1,5 +1,7 @@
-export default function Title({text, styleClass}){
+function Title({className, children}){
     return(
-        <h1 className={`text-2xl font-bold ${styleClass}`}>{text}</h1>
+        <p className={`text-2xl font-bold  ${className}`}>{children}</p>
     )
 }
+
+export default Title

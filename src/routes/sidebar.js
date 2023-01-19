@@ -3,14 +3,21 @@ import BellIcon from '@heroicons/react/24/outline/BellIcon'
 import DocumentTextIcon from '@heroicons/react/24/outline/DocumentTextIcon'
 import Squares2X2Icon from '@heroicons/react/24/outline/Squares2X2Icon'
 import TableCellsIcon from '@heroicons/react/24/outline/TableCellsIcon'
-import Square2StackIcon from '@heroicons/react/24/outline/Square2StackIcon'
+import WalletIcon from '@heroicons/react/24/outline/WalletIcon'
 import CodeBracketSquareIcon from '@heroicons/react/24/outline/CodeBracketSquareIcon'
 import DocumentIcon from '@heroicons/react/24/outline/DocumentIcon'
 import ExclamationTriangleIcon from '@heroicons/react/24/outline/ExclamationTriangleIcon'
 import ShieldCheckIcon from '@heroicons/react/24/outline/ShieldCheckIcon'
 import ArrowRightOnRectangleIcon from '@heroicons/react/24/outline/ArrowRightOnRectangleIcon'
-import UserCircleIcon from '@heroicons/react/24/outline/UserCircleIcon'
-
+import UserIcon from '@heroicons/react/24/outline/UserIcon'
+import Cog6ToothIcon from '@heroicons/react/24/outline/Cog6ToothIcon'
+import BoltIcon from '@heroicons/react/24/outline/BoltIcon'
+import ChartBarIcon from '@heroicons/react/24/outline/ChartBarIcon'
+import InformationCircleIcon from '@heroicons/react/24/outline/InformationCircleIcon'
+import InboxArrowDownIcon from '@heroicons/react/24/outline/InboxArrowDownIcon'
+import UsersIcon from '@heroicons/react/24/outline/UsersIcon'
+import KeyIcon from '@heroicons/react/24/outline/KeyIcon'
+import DocumentDuplicateIcon from '@heroicons/react/24/outline/DocumentDuplicateIcon'
 
 const iconClasses = `h-6 w-6`
 const submenuIconClasses = `h-5 w-5`
@@ -23,43 +30,39 @@ const routes = [
     name: 'Dashboard',
   },
   {
-    path: '/app/read-me', // url
-    icon: <DocumentTextIcon className={iconClasses}/>, // icon component
-    name: 'Read Me', // name that appear in Sidebar
+    path: '/app/leads', // url
+    icon: <InboxArrowDownIcon className={iconClasses}/>, // icon component
+    name: 'Leads', // name that appear in Sidebar
   },
   {
-    path: '/app/daisyui',
-    icon: <CodeBracketSquareIcon className={iconClasses}/>, 
-    name: 'Daisy UI',
+    path: '/app/charts', // url
+    icon: <ChartBarIcon className={iconClasses}/>, // icon component
+    name: 'Charts', // name that appear in Sidebar
   },
   {
-    path: '/app/icons',
-    icon: <ShieldCheckIcon className={iconClasses}/>, 
-    name: 'Icons',
+    path: '/app/integration', // url
+    icon: <BoltIcon className={iconClasses}/>, // icon component
+    name: 'Integration', // name that appear in Sidebar
   },
-  {
-    path: '/app/table',
-    icon: <TableCellsIcon className={iconClasses}/>, 
-    name: 'Table',
-  },
-  {
-    path: '/app/notifications',
-    icon: <BellIcon className={iconClasses}/>, 
-    name: 'Notifications',
-  },
+
   {
     path: '', //no url needed as this has submenu
-    icon: <Square2StackIcon className={`${iconClasses} inline` }/>, // icon component
+    icon: <DocumentDuplicateIcon className={`${iconClasses} inline` }/>, // icon component
     name: 'Pages', // name that appear in Sidebar
     submenu : [
       {
+        path: '/login',
+        icon: <ArrowRightOnRectangleIcon className={submenuIconClasses}/>,
+        name: 'Login',
+      },
+      {
         path: '/register', //url
-        icon: <UserCircleIcon className={submenuIconClasses}/>, // icon component
+        icon: <UserIcon className={submenuIconClasses}/>, // icon component
         name: 'Register', // name that appear in Sidebar
       },
       {
         path: '/forgot-password',
-        icon: <ArrowRightOnRectangleIcon className={submenuIconClasses}/>,
+        icon: <KeyIcon className={submenuIconClasses}/>,
         name: 'Forgot Password',
       },
       {
@@ -74,7 +77,53 @@ const routes = [
       },
     ]
   },
+  {
+    path: '', //no url needed as this has submenu
+    icon: <Cog6ToothIcon className={`${iconClasses} inline` }/>, // icon component
+    name: 'Settings', // name that appear in Sidebar
+    submenu : [
+      {
+        path: '/app/settings-profile', //url
+        icon: <UserIcon className={submenuIconClasses}/>, // icon component
+        name: 'Profile', // name that appear in Sidebar
+      },
+      {
+        path: '/app/settings-billing',
+        icon: <WalletIcon className={submenuIconClasses}/>,
+        name: 'Billing',
+      },
+      {
+        path: '/app/settings-team', // url
+        icon: <UsersIcon className={submenuIconClasses}/>, // icon component
+        name: 'Team Members', // name that appear in Sidebar
+      },
+    ]
+  },
+  {
+    path: '', //no url needed as this has submenu
+    icon: <DocumentTextIcon className={`${iconClasses} inline` }/>, // icon component
+    name: 'Documentation', // name that appear in Sidebar
+    submenu : [
+      {
+        path: '/app/getting-started', // url
+        icon: <DocumentTextIcon className={submenuIconClasses}/>, // icon component
+        name: 'Getting Started', // name that appear in Sidebar
+      },
+      {
+        path: '/app/features',
+        icon: <TableCellsIcon className={submenuIconClasses}/>, 
+        name: 'Features',
+      },
+      {
+        path: '/app/components',
+        icon: <CodeBracketSquareIcon className={submenuIconClasses}/>, 
+        name: 'Components',
+      }
+    ]
+  },
   
 ]
 
 export default routes
+
+

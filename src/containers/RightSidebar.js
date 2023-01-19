@@ -35,6 +35,7 @@ function RightSidebar(){
                         {/* ------------------ Content Start ------------------ */}
                         <div className="overflow-y-scroll pl-4 pr-4">
                             <div className="flex flex-col w-full">
+                            {/* Loading drawer body according to different drawer type */}
                             {
                                 {
                                         [RIGHT_DRAWER_TYPES.NOTIFICATION] : <NotificationBodyRightDrawer {...extraObject} closeRightDrawer={close}/>,

@@ -1,4 +1,4 @@
-import Subtitle from "../../../components/Typography/Subtitle"
+import TitleCard from "../../../components/Cards/TitleCard"
 
 const userSourceData = [
     {source : "Facebook Ads", count : "26,345", conversionPercent : 10.2},
@@ -10,20 +10,16 @@ const userSourceData = [
 
 function UserChannels(){
     return(
-        <div className="card w-full p-6 mt-6 bg-base-100 shadow-xl">
-            <Subtitle styleClass="mt-2">User Signup Source</Subtitle>
-            <div className="divider mt-2"></div>
-
-
-            {/** Table Data */}
-            <div className="overflow-x-auto">
+        <TitleCard title={"User Signup Source"}>
+             {/** Table Data */}
+             <div className="overflow-x-auto">
                 <table className="table w-full">
                     <thead>
                     <tr>
                         <th></th>
-                        <th>Source</th>
-                        <th>No of Users</th>
-                        <th>Conversion</th>
+                        <th className="normal-case">Source</th>
+                        <th className="normal-case">No of Users</th>
+                        <th className="normal-case">Conversion</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -42,9 +38,7 @@ function UserChannels(){
                     </tbody>
                 </table>
             </div>
-
-
-        </div>
+        </TitleCard>
     )
 }
 

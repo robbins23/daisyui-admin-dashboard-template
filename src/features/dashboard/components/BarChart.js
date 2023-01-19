@@ -8,6 +8,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
+import TitleCard from '../../../components/Cards/TitleCard';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
@@ -18,11 +19,7 @@ function BarChart(){
         plugins: {
           legend: {
             position: 'top',
-          },
-          title: {
-            display: true,
-            text: 'Revenue',
-          },
+          }
         },
       };
       
@@ -45,9 +42,10 @@ function BarChart(){
       };
 
     return(
-        <div className='h-80 card w-full p-6 mt-6 bg-base-100 shadow'>
+      <TitleCard title={"Revenue"}>
             <Bar options={options} data={data} />
-        </div>
+      </TitleCard>
+
     )
 }
 

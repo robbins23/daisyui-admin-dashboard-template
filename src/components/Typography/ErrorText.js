@@ -1,5 +1,7 @@
-export default function ErrorText({message, styleClass}){
+function ErrorText({styleClass, children}){
     return(
-        <p className={`text-center font-semibold text-error mt-8 ${styleClass}`}>{message}</p>
+        <p className={`text-center  text-error ${styleClass}`}>{children}</p>
     )
 }
+
+export default ErrorText

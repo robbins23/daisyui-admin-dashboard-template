@@ -17,7 +17,6 @@ function Header(){
 
     useEffect(() => {
         themeChange(false)
-        console.log(currentTheme)
         if(currentTheme === null){
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
                 setCurrentTheme("dark")
@@ -28,6 +27,8 @@ function Header(){
         // 👆 false parameter is required for react project
       }, [])
 
+
+    // Opening right sidebar for notification
     const openNotification = () => {
         dispatch(openRightDrawer({header : "Notifications", bodyType : RIGHT_DRAWER_TYPES.NOTIFICATION}))
     }
@@ -57,7 +58,7 @@ function Header(){
                 {/* Multiple theme selection, uncomment this if you want to enable multiple themes selection, 
                 also includes corporate and retro themes in tailwind.config file */}
                 
-                {/* <select className="select" data-choose-theme>
+                {/* <select className="select select-sm mr-4" data-choose-theme>
                     <option disabled selected>Theme</option>
                     <option value="light">Default</option>
                     <option value="dark">Dark</option>
@@ -67,7 +68,7 @@ function Header(){
 
 
             {/* Light and dark theme selection toogle **/}
-            <label className="swap swap-rotate">
+            <label className="swap ">
                 <input type="checkbox"/>
                 <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-6 h-6 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
                 <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-6 h-6 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
