@@ -4,7 +4,7 @@
 ## Daisy UI Admin Dashboard Template - DashWind 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A free admin dashboard template using **Daisy UI** and React js. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
+A free admin dashboard template using **Daisy UI** and React js. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** and other libraries configured.
 
 
 ## Preview
@@ -50,7 +50,7 @@ Go to project directory and run (make sure you have node installed first)
 
 [Documentation](https://tailwind-dashboard-template-dashwind.vercel.app/documentation)
 
-## Pages Example
+## Page Examples
 
 |                          |                               |
 :-------------------------:|:-------------------------:
