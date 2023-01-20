@@ -4,7 +4,7 @@
 ## Daisy UI Admin Dashboard Template - DashWind 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A free admin dashboard template using **Daisy UI** and react js. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
+A free admin dashboard template using **Daisy UI** and React js. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
 
 
 ## Preview
