@@ -7,7 +7,7 @@ function GettingStartedContent(){
 
     const dispatch = useDispatch()
 
- 
+
 
     return(
         <>
@@ -17,8 +17,8 @@ function GettingStartedContent(){
 
               {/* Introduction */}
               <h2 className="" id="getstarted1">Introduction</h2>
-              <p>A free dashboard template using <span className='font-bold'>Daisy UI</span> and react js. With the help of Dasisy UI, it comes with <span className='font-bold'>fully customizable and themable CSS</span> and power of Tailwind CSS utility classes. It also comes with <span className='font-bold'>redux toolkit</span> configured.</p> 
-              <p>Also user authentication has been already implemented, you can use this template to start your next SaaS project or build new internal tools in your company.</p>
+              <p>A free dashboard template using <span className='font-bold'>Daisy UI</span> and react js. With the help of Dasisy UI, it comes with <span className='font-bold'>fully customizable and themable CSS</span> and power of Tailwind CSS utility classes. We have also added <span className='font-bold'>redux toolkit</span>  and configured it for API calls and state management.</p> 
+              <p>User authentication has been implemented using JWT token method (ofcourse you need backend API for generating and verifying token). This template can be used to start your next SaaS project or build new internal tools in your company.</p>
               <h4> Core libraries used - </h4>
               <ul>
                   <li><a href="https://reactjs.org/" target="_blank">React JS v18.2.0</a></li>
@@ -48,7 +48,9 @@ function GettingStartedContent(){
               {/* How to Use */}
               <h2 id="getstarted2">How to use?</h2>
                 <p>
-                    Just clone the repo from github and then run following command (Make sure you have node js installed already )<br/>
+                    Just clone the repo from github and then run following command (Make sure you have node js installed )<br/>
+                    <a href="https://github.com/srobbin01/daisyui-admin-dashboard-template" className='text-sm text-blue-500' target="_blank">Repo Link</a>
+                    <br />
                     <code> npm install </code><br />
                     <code>npm start</code>
                 </p>
@@ -65,7 +67,7 @@ function GettingStartedContent(){
 
               <p><a href="https://daisyui.com/" target="_blank" className='text-xl btn-link'>Daisy UI</a>, a popular free and opensource tailwind component library has been used for this template. It has a rich collection of components, layouts and is fully customizable and themeable.</p>
               
-              <p>Apart from this it also helps in making HTML code more cleaner as we don't have to include all utility classes of tailwind to make the UI. Check components <a href="https://daisyui.com/components/button/" target="_blank" className='btn-link'>documentation</a></p>
+              <p>Apart from this it also helps in making HTML code more cleaner as we don't have to include all utility classes of tailwind to make the UI. Check components <a href="https://daisyui.com/components/button/" target="_blank" className='btn-link'>documentation here</a>. For Ex- </p>
 
               <div className='text-center'>
                 <h2 className='text-xl font-bold mb-0.5'>Creating a button</h2>
@@ -96,7 +98,7 @@ function GettingStartedContent(){
                    {/* Chart JS */}
               <h2 id="getstarted5">Chart JS</h2>
                  <p>
-                 Chart JS library is being used to show charts which has rich components of Chart based on  <a href="https://www.chartjs.org/" target="_blank" alt=""> Chart.js</a> library, the most popular charting library.
+                 Chart JS library has rich components of different charts available. It is based on  <a href="https://www.chartjs.org/" target="_blank" alt=""> Chart.js</a> library, the most popular charting library. We have added this library and added couple of examples in seperate page.
                  </p>
 
 
@@ -108,7 +110,7 @@ function GettingStartedContent(){
                     <li>Configuring a Redux store is too complicated</li>
                     <li>I have to add a lot of packages to get Redux to do anything useful</li>
                     <li>Redux requires too much boilerplate code"</li>
-                    This library has been configured and used for showing global notifications, global modals, and loading data from API in leads page.
+                    This library has been configured and used for showing notifications, modals and loading data from API in leads page.
                  </p>
 
 
@@ -135,7 +137,7 @@ function GettingStartedContent(){
                 <pre><code>{"import BeakerIcon from '@heroicons/react/24/solid/BeakerIcon'"}<br />
                 {"import BellIcon from '@heroicons/react/24/solid/BellIcon'"}</code></pre>
 
-                <div className="badge badge-base">This will not load all icons while building the project</div>
+                <div className="badge badge-secondary">This is better way for importing icons</div>
 
 
 

@@ -1,6 +1,6 @@
 function HelperText({className, children}){
     return(
-        <p className={`text-base-300 ${className}`}>{children}</p>
+        <div className={`text-slate-400 ${className}`}>{children}</div>
     )
 }
 

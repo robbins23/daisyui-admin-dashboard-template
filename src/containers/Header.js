@@ -8,6 +8,8 @@ import SunIcon from '@heroicons/react/24/outline/SunIcon'
 import { openRightDrawer } from '../features/common/rightDrawerSlice';
 import { RIGHT_DRAWER_TYPES } from '../utils/globalConstantUtil'
 
+import { NavLink,  Routes, Link , useLocation} from 'react-router-dom'
+
 
 function Header(){
 
@@ -92,13 +94,13 @@ function Header(){
                         </div>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li>
-                        <a className="justify-between">
-                            Profile
+                        <li className="justify-between">
+                        <Link to={'/app/settings-profile'}>
+                            Profile Settings
                             <span className="badge">New</span>
-                        </a>
+                            </Link>
                         </li>
-                        <li><a>Settings</a></li>
+                        <li className=''><Link to={'/app/settings-billing'}>Bill History</Link></li>
                         <div className="divider mt-0 mb-0"></div>
                         <li><a onClick={logoutUser}>Logout</a></li>
                     </ul>

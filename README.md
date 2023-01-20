@@ -1,10 +1,13 @@
 
 ![Logo](https://ik.imagekit.io/vu5t8xb15vzcx/tr:h-100/android-chrome-512x512_EiumvYoXeA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548997842)
 
-## Admin Dashboard Template: DashWind -  React JS | Daisy UI
+## Daisy UI Admin Dashboard Template - DashWind 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 A free admin dashboard template using **Daisy UI** and react js. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes. It also comes with **redux toolkit** configured.
 
+
+## Preview
 
 [Live preview](https://tailwind-dashboard-template-dashwind.vercel.app/)
 
@@ -21,10 +24,7 @@ A free admin dashboard template using **Daisy UI** and react js. With the help o
 - **Submenu support** in sidebar
 - Store management using **redux toolkit**
 - **Daisy UI** components and **Tailwind** support
-- **Right and left sidebar**, Universal loader, notifications, **global modal** and other components
-- React **chart js 2** examples
-- Data loading using **redux toolkit slice** example
-- User-friendly **documentation**
+- **Right and left sidebar**, Universal loader, notifications, **global modal**, **chart js 2**  and other components
 
 
 ## Installation
@@ -50,22 +50,36 @@ Go to project directory and run (make sure you have node installed first)
 
 [Documentation](https://tailwind-dashboard-template-dashwind.vercel.app/documentation)
 
-## More Screenshots
+## Pages Example
 
-![Leads Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.41.27_PM_yGQFBCJPNA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198696439)
-![Setting Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.25_PM_xZBThuZdU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198832089)
-![Login Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.42.50_PM_OahsZofhp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831699)
-![Register Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.00_PM_1fkpMRG90.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831908)
+|                          |                               |
+:-------------------------:|:-------------------------:
+![Leads Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.41.27_PM_yGQFBCJPNA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198696439) | ![Setting Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.25_PM_xZBThuZdU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198832089) 
+![Login Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.42.50_PM_OahsZofhp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831699) | ![Register Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.00_PM_1fkpMRG90.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831908)
+
+
+
+
 
 ## Preview
 
 [Live preview](https://tailwind-dashboard-template-dashwind.vercel.app/)
 
 
+## Roadmap
+
+- Addition of more pages
+
+- Seperate templates based on business functions like CRM, Sales, Project Management
+
+
+## Contributing
+
+Contributions are always welcome!
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 ## Feedback
 
