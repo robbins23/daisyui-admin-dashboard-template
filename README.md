@@ -9,7 +9,7 @@ A free admin dashboard template using **Daisy UI** and react js. With the help o
 [Live preview](https://tailwind-dashboard-template-dashwind.vercel.app/)
 
 
-![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2022-11-27_at_4.53.40_PM_VklHaM8UF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669548831749)
+![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.36.43_PM_UUUlT44mZS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198435625)
 
 
 
@@ -17,24 +17,26 @@ A free admin dashboard template using **Daisy UI** and react js. With the help o
 ## Features
 
 - **Light/dark** mode toggle
-- Token based user authentication
+- Token based user **authentication**
 - **Submenu support** in sidebar
 - Store management using **redux toolkit**
-- **Daisy UI** components
-- **Right and left sidebar**, Universal loader, notifications and other components
+- **Daisy UI** components and **Tailwind** support
+- **Right and left sidebar**, Universal loader, notifications, **global modal** and other components
 - React **chart js 2** examples
+- Data loading using **redux toolkit slice** example
+- User-friendly **documentation**
 
 
 ## Installation
 
-Go to project directory and run
+Go to project directory and run (make sure you have node installed first)
 
 ```bash
   npm install
   npm start
 ```
     
-## Libraries Used
+## Core Libraries Used
 
 - [React JS v18.2.0](https://reactjs.org/)
 - [React Router v6.4.3](https://reactrouter.com/en/main)
@@ -47,6 +49,17 @@ Go to project directory and run
 ## Documentation
 
 [Documentation](https://tailwind-dashboard-template-dashwind.vercel.app/documentation)
+
+## More Screenshots
+
+![Leads Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.41.27_PM_yGQFBCJPNA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198696439)
+![Setting Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.25_PM_xZBThuZdU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198832089)
+![Login Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.42.50_PM_OahsZofhp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831699)
+![Register Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.00_PM_1fkpMRG90.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831908)
+
+## Preview
+
+[Live preview](https://tailwind-dashboard-template-dashwind.vercel.app/)
 
 
 ## License
