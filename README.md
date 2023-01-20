@@ -53,9 +53,7 @@ Go to project directory and run (make sure you have node installed first)
 ## More Screenshots
 
 ![Leads Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.41.27_PM_yGQFBCJPNA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198696439)
-![Setting Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.25_PM_xZBThuZdU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198832089)
-![Login Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.42.50_PM_OahsZofhp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831699)
-![Register Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-01-20_at_12.43.00_PM_1fkpMRG90.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674198831908)
+
 
 ## Preview
 
