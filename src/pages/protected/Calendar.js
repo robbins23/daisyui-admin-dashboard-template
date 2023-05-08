@@ -1,18 +1,18 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import Charts from '../../features/charts'
 import { setPageTitle } from '../../features/common/headerSlice'
+import Calendar from '../../features/calendar'
 
 function InternalPage(){
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatch(setPageTitle({ title : "Analytics"}))
+        dispatch(setPageTitle({ title : "Calendar"}))
       }, [])
 
 
     return(
-        <Charts />
+        <Calendar />
     )
 }
 

@@ -4,6 +4,8 @@ import ShareIcon  from '@heroicons/react/24/outline/ShareIcon'
 import EnvelopeIcon  from '@heroicons/react/24/outline/EnvelopeIcon'
 import EllipsisVerticalIcon  from '@heroicons/react/24/outline/EllipsisVerticalIcon'
 import ArrowPathIcon  from '@heroicons/react/24/outline/ArrowPathIcon'
+import { useState } from "react"
+import Datepicker from "react-tailwindcss-datepicker"; 
 
 
 
@@ -18,14 +20,33 @@ const periodOptions = [
 
 function DashboardTopBar({updateDashboardPeriod}){
 
-    const updateSelectBoxValue = ({updateVar , value}) => {
-        updateDashboardPeriod(value)
-    }
+        const [dateValue, setDateValue] = useState({ 
+            startDate: new Date(), 
+            endDate: new Date() 
+        }); 
+        
+        const handleDatePickerValueChange = (newValue) => {
+            console.log("newValue:", newValue); 
+            setDateValue(newValue); 
+            updateDashboardPeriod(newValue)
+        } 
+
 
     return(
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="">
-            <SelectBox 
+            <Datepicker 
+                containerClassName="w-72 " 
+                value={dateValue} 
+                theme={"light"}
+                inputClassName="input input-bordered w-72" 
+                popoverDirection={"down"}
+                toggleClassName="invisible"
+                onChange={handleDatePickerValueChange} 
+                showShortcuts={true} 
+                primaryColor={"white"} 
+            /> 
+            {/* <SelectBox 
                 options={periodOptions}
                 labelTitle="Period"
                 placeholder="Select date range"
@@ -33,7 +54,7 @@ function DashboardTopBar({updateDashboardPeriod}){
                 labelStyle="hidden"
                 defaultValue="TODAY"
                 updateFormValue={updateSelectBoxValue}
-            />
+            /> */}
             </div>
             <div className="text-right ">
                 <button className="btn btn-ghost btn-sm normal-case"><ArrowPathIcon className="w-4 mr-2"/>Refresh Data</button>

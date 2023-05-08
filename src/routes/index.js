@@ -9,6 +9,7 @@ const Blank = lazy(() => import('../pages/protected/Blank'))
 const Charts = lazy(() => import('../pages/protected/Charts'))
 const Leads = lazy(() => import('../pages/protected/Leads'))
 const Integration = lazy(() => import('../pages/protected/Integration'))
+const Calendar = lazy(() => import('../pages/protected/Calendar'))
 const Team = lazy(() => import('../pages/protected/Team'))
 const Bills = lazy(() => import('../pages/protected/Bills'))
 const ProfileSettings = lazy(() => import('../pages/protected/ProfileSettings'))
@@ -33,6 +34,10 @@ const routes = [
   {
     path: '/settings-team',
     component: Team,
+  },
+  {
+    path: '/calendar',
+    component: Calendar,
   },
   {
     path: '/settings-profile',

@@ -19,7 +19,6 @@ export const headerSlice = createSlice({
         },
 
         showNotification: (state, action) => {
-            console.log(action)
             state.newNotificationMessage = action.payload.message
             state.newNotificationStatus = action.payload.status
         },

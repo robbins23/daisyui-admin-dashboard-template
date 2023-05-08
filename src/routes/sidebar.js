@@ -7,7 +7,7 @@ import WalletIcon from '@heroicons/react/24/outline/WalletIcon'
 import CodeBracketSquareIcon from '@heroicons/react/24/outline/CodeBracketSquareIcon'
 import DocumentIcon from '@heroicons/react/24/outline/DocumentIcon'
 import ExclamationTriangleIcon from '@heroicons/react/24/outline/ExclamationTriangleIcon'
-import ShieldCheckIcon from '@heroicons/react/24/outline/ShieldCheckIcon'
+import CalendarDaysIcon from '@heroicons/react/24/outline/CalendarDaysIcon'
 import ArrowRightOnRectangleIcon from '@heroicons/react/24/outline/ArrowRightOnRectangleIcon'
 import UserIcon from '@heroicons/react/24/outline/UserIcon'
 import Cog6ToothIcon from '@heroicons/react/24/outline/Cog6ToothIcon'
@@ -37,12 +37,17 @@ const routes = [
   {
     path: '/app/charts', // url
     icon: <ChartBarIcon className={iconClasses}/>, // icon component
-    name: 'Charts', // name that appear in Sidebar
+    name: 'Analytics', // name that appear in Sidebar
   },
   {
     path: '/app/integration', // url
     icon: <BoltIcon className={iconClasses}/>, // icon component
     name: 'Integration', // name that appear in Sidebar
+  },
+  {
+    path: '/app/calendar', // url
+    icon: <CalendarDaysIcon className={iconClasses}/>, // icon component
+    name: 'Calendar', // name that appear in Sidebar
   },
 
   {
