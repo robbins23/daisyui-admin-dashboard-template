@@ -13,7 +13,7 @@ import UserIcon from '@heroicons/react/24/outline/UserIcon'
 import Cog6ToothIcon from '@heroicons/react/24/outline/Cog6ToothIcon'
 import BoltIcon from '@heroicons/react/24/outline/BoltIcon'
 import ChartBarIcon from '@heroicons/react/24/outline/ChartBarIcon'
-import InformationCircleIcon from '@heroicons/react/24/outline/InformationCircleIcon'
+import CurrencyDollarIcon from '@heroicons/react/24/outline/CurrencyDollarIcon'
 import InboxArrowDownIcon from '@heroicons/react/24/outline/InboxArrowDownIcon'
 import UsersIcon from '@heroicons/react/24/outline/UsersIcon'
 import KeyIcon from '@heroicons/react/24/outline/KeyIcon'
@@ -33,6 +33,11 @@ const routes = [
     path: '/app/leads', // url
     icon: <InboxArrowDownIcon className={iconClasses}/>, // icon component
     name: 'Leads', // name that appear in Sidebar
+  },
+  {
+    path: '/app/transactions', // url
+    icon: <CurrencyDollarIcon className={iconClasses}/>, // icon component
+    name: 'Transactions', // name that appear in Sidebar
   },
   {
     path: '/app/charts', // url
