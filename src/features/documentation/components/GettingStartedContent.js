@@ -23,8 +23,8 @@ function GettingStartedContent(){
               <ul>
                   <li><a href="https://reactjs.org/" target="_blank">React JS v18.2.0</a></li>
                   <li><a href="https://reactrouter.com/en/main" target="_blank">React Router v6.4.3</a></li>
-                  <li><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS v3.2.4</a></li>
-                  <li><a href="https://daisyui.com/" target="_blank">Daisy UI v2.41.0</a></li>
+                  <li><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS v3.3.6</a></li>
+                  <li><a href="https://daisyui.com/" target="_blank">Daisy UI v4.4.19</a></li>
                   <li><a href="https://heroicons.com/" target="_blank">HeroIcons v2.0.13</a></li>
                   <li><a href="https://redux-toolkit.js.org/" target="_blank">Redux toolkit v1.9.0</a></li>
                   <li><a href="https://react-chartjs-2.js.org/" target="_blank">React ChartJS 2 v5.0.1</a></li>

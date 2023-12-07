@@ -14,10 +14,10 @@ function SidebarSubmenu({submenu, name, icon}){
     }, [])
 
     return (
-        <div className='flex-col'>
+        <div className='flex flex-col'>
 
             {/** Route header */}
-            <div className='w-full' onClick={() => setIsExpanded(!isExpanded)}>
+            <div className='w-full block' onClick={() => setIsExpanded(!isExpanded)}>
                 {icon} {name} 
                 <ChevronDownIcon className={'w-5 h-5 mt-1 float-right delay-400 duration-500 transition-all  ' + (isExpanded ? 'rotate-180' : '')}/>
             </div>

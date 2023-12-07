@@ -42,12 +42,14 @@ function Header(){
     }
 
     return(
+        // navbar fixed  flex-none justify-between bg-base-300  z-10 shadow-md
+        
         <>
-            <div className="navbar  flex justify-between bg-base-100  z-10 shadow-md ">
+            <div className="navbar sticky top-0 bg-base-100  z-10 shadow-md ">
 
 
                 {/* Menu toogle for mobile view or small screen */}
-                <div className="">
+                <div className="flex-1">
                     <label htmlFor="left-sidebar-drawer" className="btn btn-primary drawer-button lg:hidden">
                     <Bars3Icon className="h-5 inline-block w-5"/></label>
                     <h1 className="text-2xl font-semibold ml-2">{pageTitle}</h1>
@@ -55,7 +57,7 @@ function Header(){
 
                 
 
-            <div className="order-last">
+            <div className="flex-none ">
 
                 {/* Multiple theme selection, uncomment this if you want to enable multiple themes selection, 
                 also includes corporate and retro themes in tailwind.config file */}
