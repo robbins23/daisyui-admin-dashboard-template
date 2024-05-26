@@ -26,6 +26,10 @@ This is a free admin dashboard template that uses **Daisy UI** and React js. It 
 - **Right and left sidebar**, Universal loader, notifications
 - **Calendar**, global modal, **chart js 2**  and other components
 
+## Typescript Nest Js Version
+
+🚀 [Link](https://github.com/robbins23/admin-dashboard-nextjs-typescript-daisyui)
+
 
 ## Installation
 
